@@ -1,3 +1,3 @@
 ## 二手书交易平台微信小程序
 ##效果图如下：
- ![image](https://github.com/mindasiy/smallwx/master/images-folder/psd.jpg)
+ ![image](smallwx/images-folder/psd.jpg)
