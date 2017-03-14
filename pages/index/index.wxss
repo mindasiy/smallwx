@@ -1,0 +1,3 @@
+/**index.wxss**/
+.modular{ margin-top:0;margin-bottom: 20rpx;}
+.head{border-bottom: 2rpx solid #eeeeee; }

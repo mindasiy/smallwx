@@ -1,0 +1,35 @@
+page{background-color: #f0eff4;}
+.personal{padding: 20rpx 40rpx;background-color: #fff;border-bottom: 2rpx solid #d0d0d0;position: relative;}
+.personal:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);margin-top: 6rpx;position: absolute;top: 50%;right: 30rpx;} 
+.personal .name{display: inline-block;font-size: 40rpx;}
+.personal .phone{margin-left: 20rpx;display: inline;}
+.personal .address{display: inline-block;color: #b4b4b4;font-size: 28rpx;}
+.distribution{padding: 20rpx 0 20rpx 20rpx;background-color: #fff;margin-top: 20rpx;border-top: 2rpx solid #d0d0d0;border-bottom: 2rpx solid #d0d0d0;}
+.item{margin-top: 20rpx;background-color: #fff;padding: 20rpx;border-bottom: 2rpx solid #eeeeee;display: flex; }
+.item image{height: 190rpx;width: 150rpx;}
+.content{display: inline-flex;color: #999;flex-direction: column;justify-content: space-around;line-height: 44rpx;font-size: 32rpx; margin-left: 20rpx }
+.content .name{line-height: 58rpx;color: #000;}
+.content .money{color: #ff5500;}
+.content .money .right{float: right;font-size: 28rpx;color: #000;}
+.how{background-color: #fff;padding: 20rpx;line-height: 54rpx;font-size: 36rpx; margin-bottom: 110rpx; margin-top: 20rpx}
+.how .right{ float: right;color: #ffa477; font-size: 28rpx}
+.line{padding: 15rpx 0;}
+.go_buy{background-color: #fff;position: fixed;z-index: 9;width: 100%;height: 90rpx;line-height: 90rpx;left: 0;bottom: 0;}
+.go_buy .all{color: #929292;font-size: 30rpx;float: left; margin-left: 20rpx}
+.go_buy .all view{color: #ef4d42;display: inline-block;}
+.go{float: right;width: 360rpx;}
+.go .next{background-color: #ff5500;text-align: center;color: #fff;width: 190rpx;float: right;font-size: 32rpx;}
+.mode{padding: 20rpx 0 30rpx 30rpx;margin-top: 20rpx;background-color: #fff;}
+.mode .h1{border-bottom: 2rpx solid #eeeeee;font-size: 36rpx;line-height: 78rpx;color: #999;}
+.mode  button{width:200rpx; height:68rpx;  float:left; margin-right:20rpx; background: #fff; font-size:28rpx; line-height:68rpx }
+.mode  view.btngroup{ width:100%;height:70rpx; padding:30rpx 0 }
+.mode  button.class1{border:2rpx solid #ccc; color:#ccc  }
+.mode  button.class2{border:2rpx solid #1aad19; color:#1aad19 }
+.modetext{font-size:28rpx; color:#ccc}
+.modemsg{background-color: #fff;padding: 20rpx; position: relative;display: flex;height: 178rpx;box-sizing: border-box;}
+.modemsg image{height: 138rpx;width: 138rpx;margin-right: 40rpx;border-radius: 10rpx;border: 2rpx solid #d0d0d0}
+.modemsg .namebox{display: inline-flex;flex-direction: column;justify-content: space-around;}
+.modemsg .namebox .name{font-size: 38rpx;color: #333;}
+.modemsg .namebox .more{font-size: 32rpx;color: #999;}
+.wxpay{padding: 20rpx 0 30rpx 30rpx;margin-top: 20rpx;background-color: #fff; height: 72rpx;display:flex;line-height: 72rpx}
+.wxpay image{ width:72rpx; height: 72rpx; margin-right: 10rpx}

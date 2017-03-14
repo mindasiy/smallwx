@@ -1,0 +1,13 @@
+page{background-color: #f0eff4;}
+.top{background-color: #fff;padding: 20rpx;border-bottom: 2rpx solid #d0d0d0;position: relative;display: flex;height: 178rpx;box-sizing: border-box;}
+.top image{height: 138rpx;width: 138rpx;margin-right: 40rpx;border-radius: 10rpx;border: 2rpx solid #d0d0d0}
+.top .namebox{display: inline-flex;flex-direction: column;justify-content: space-around;}
+.top .namebox .name{font-size: 38rpx;color: #333;}
+.top .namebox .more{font-size: 32rpx;color: #999;}
+.top:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);margin-top: 6rpx;position: absolute;top: 50%;right: 50rpx;}
+.list{margin-top: 20rpx;border-top: 2rpx solid #d0d0d0;border-bottom: 2rpx solid #d0d0d0;padding-left: 30rpx;background-color: #fff;}
+.list navigator{border-bottom: 1px solid #d0d0d0;line-height: 80rpx;position: relative;display: flex;justify-content: space-between;}
+.list navigator:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);position: absolute;top: 50%;right: 50rpx;}
+.list navigator:last-child{border-bottom: 0}
+.list .left{font-size: 32rpx;color: #333;}
+.list .right{font-size: 28rpx;color: #666;margin-right: 100rpx;}

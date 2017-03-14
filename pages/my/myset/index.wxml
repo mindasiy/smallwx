@@ -1,0 +1,42 @@
+<view class="list">
+	<view class="item">
+		<view class="left">
+			头像
+		</view>
+		<image src="../../../images/demo2.png" class="right photo"></image>	
+	</view>
+	<view class="item">
+		<view class="left">
+			昵称
+		</view>
+		<input placeholder-style="color:＃999" placeholder="张某某"  class="right"/>
+	</view>
+	<view class="item">
+		<view class="left">
+			年级
+		</view>
+		<input placeholder-style="color:＃999" placeholder="八年级" class="right" />
+	</view>
+	<view class="item">
+		<view class="left">
+			学校
+		</view>
+		<input placeholder-style="color:＃999" placeholder="上海平和国际学院"  class="right"/>
+	</view>
+	<view class="item">
+		<view class="left">
+			性别
+		</view>
+		<picker mode = selector bindchange="bindPickerChange" value="{{index}}" range="{{arr}}" class="right">
+		    <view class="picker">
+		      {{arr[index]}}
+		    </view>
+	  	</picker>
+	</view>
+	<navigator class="item" url="../myaddress/index">
+		<view class="left">
+			收货地址
+		</view>
+	</navigator>
+</view>
+<button class="btm">退出帐号</button>

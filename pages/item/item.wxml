@@ -1,0 +1,32 @@
+<template name="home_book_list">
+<block wx:for="{{home_books}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">	
+  <view class="text">
+        <text>{{item.title}}</text>
+    </view>
+    <view class="books_content">
+	    <block wx:for="{{item.news}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+
+	    	<block wx:if="{{3==idx}}">
+	    		<view class="item last">
+			            <view class="top">
+			            	<block wx:for="{{item.src}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+			            		<view class="four">
+				                    <image src="{{item}}" class="small_img"></image>
+				                </view>
+			            	</block>	
+			            </view>
+			            <view class="introduce">
+			                {{item.text}}
+			            </view>
+		        </view>
+	    	</block>
+	    	<block wx:else>
+	    		<view class="item">
+		            <image class="img" src="{{item.src}}"></image>
+		            <view class="introduce">{{item.text}}</view>
+		        </view>
+	        </block>
+		</block>
+    </view> 
+</block>
+</template>

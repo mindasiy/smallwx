@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<view class="logo"> 
+ 
+	<view class="input" >
+		<input placeholder="🔍搜索" focus="{{focus}}" placeholder-style="color:#999999;font-size:30rpx;" bindtap="search" />
+	</view>
+	 
+</view> 
+ 
+ <view class="modular">
+	<view class="content">
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+	</view>
+	<view class="content">
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+	</view>
+	<view class="content">
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view class="list">
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+	</view>
+</view>	 
+ 
+ 

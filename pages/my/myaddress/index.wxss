@@ -1,0 +1,8 @@
+page{background-color: #f0eff4}
+.personal{padding: 20rpx 40rpx;background-color: #fff;border-bottom: 2rpx solid #d0d0d0;position: relative;}
+.personal:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);margin-top: 6rpx;position: absolute;top: 50%;right: 30rpx;} 
+.personal .name{display: inline-block;font-size: 40rpx;}
+.personal .phone{margin-left: 20rpx;display: inline;}
+.personal .address{display: inline-block;color: #b4b4b4;font-size: 28rpx;}
+.add{padding: 30rpx 20rpx;font-size: 36rpx;background-color: #fff;}
+.add image{width: 36rpx;height: 36rpx;vertical-align: middle;margin-right: 2rpx;margin-left: 20rpx;}

@@ -1,0 +1,41 @@
+<navigator class="top" url="myset/index">
+	<image src="../../images/demo2.png"></image>
+	<view class="namebox">
+		<view class="name">名字名字</view>
+		<view class="more">详细资料</view>
+	</view>
+</navigator>
+<view class="list">
+	<navigator>
+		<view class="left">
+			我发布的
+		</view>
+		<view class="right">
+			12
+		</view>			
+	</navigator>
+	<navigator>
+		<view class="left">
+			我卖出的
+		</view>
+		<view class="right">
+			12
+		</view>			
+	</navigator>
+	<navigator>
+		<view class="left">
+			我买到的
+		</view>
+		<view class="right">
+			12
+		</view>			
+	</navigator>
+	<navigator>
+		<view class="left">
+			我收藏的
+		</view>
+		<view class="right">
+			12
+		</view>			
+	</navigator>
+</view>

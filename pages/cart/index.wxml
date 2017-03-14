@@ -1,0 +1,41 @@
+<checkbox-group catchchange="checkboxChange">
+  <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="item">
+    <view class="parent"  wx:if="{{item.name!= 'd'}}">
+      <view class="item" id="{{idx}}" bindtouchstart="tapName" bindtouchmove="move" bindtouchend="end" style="left: {{left[idx]}};transition: {{tran}}">
+          <label>              
+          <checkbox value="" checked=""/>      
+          </label>
+         <image src="{{item.icon}}"></image>
+        <view class="content">
+            <view class="bookname">{{item.name}}</view>
+            <view class="author">作者{{item.author}}</view>
+            <view class="big">简介：{{item.des}}</view>
+            <view class="money">
+              ¥100
+              <view class="len">X2</view>
+            </view>
+        </view>
+          <view class="delete">
+            删除
+          </view>
+        </view>
+    </view>
+    <view class="go_buy" >
+      <label>
+          <checkbox value="all" checked=" " />
+           
+      </label>
+      <view class="left">全选</view>
+      <view class="go">
+          <view class="all">
+            合计<view>¥100元</view>
+          </view>
+          <navigator class="next"  url="buy/index">
+            去结算(0)
+          </navigator>
+      </view>
+    </view>
+  </block>  
+</checkbox-group>
+
+ 

@@ -1,0 +1,28 @@
+<view class="personal">
+	<view class="name">
+		张某某<view class="phone">13333333333</view>
+	</view>
+	<view class="address">
+		南京市玄武区长江后街东大科技园169号
+	</view>
+</view>
+<view class="personal">
+	<view class="name">
+		张某某<view class="phone">13333333333</view>
+	</view>
+	<view class="address">
+		南京市玄武区长江后街东大科技园169号
+	</view>
+</view>
+<view class="personal">
+	<view class="name">
+		张某某<view class="phone">13333333333</view>
+	</view>
+	<view class="address">
+		南京市玄武区长江后街东大科技园169号
+	</view>
+</view>
+<navigator class="add" url="../plusaddress/index">
+	<image src="../../../images/icon_add.png"></image>
+	新增收货地址
+</navigator>

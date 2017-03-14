@@ -1,0 +1,125 @@
+<!--index.wxml-->
+<view class="logo">  
+	<view class="input" >
+		<input placeholder="🔍搜索" focus="{{focus}}" placeholder-style="color:#999999;font-size:30rpx;" bindtap="search" />
+	</view>	 
+</view>
+<view class="head">
+	<view >
+		<navigator url="redirect?title=redirect"   hover-class="other-navigator-hover" class="on">
+			新书榜
+		</navigator>
+	</view>	
+	<view>
+		<navigator url="hot/index"   hover-class="other-navigator-hover">
+			热销榜
+		</navigator>
+	</view>
+	<view>
+		<navigator url="redirect?title=redirect"   hover-class="other-navigator-hover">
+			书单
+		</navigator>
+	</view>
+	<view>
+		<navigator url="redirect?title=redirect"   hover-class="other-navigator-hover">
+			今日特惠
+		</navigator>
+	</view>
+	<view>
+		<navigator url="redirect?title=redirect"   hover-class="other-navigator-hover">
+			分类
+		</navigator>
+	</view>
+</view>
+<view class="modular">
+	<view class="h1">
+		<view class="span">
+			最新上架
+		</view>
+	</view>
+	<view class="content">
+	<navigator url="/pages/goods/detail/index"   hover-class="other-navigator-hover">
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空1</view>
+		</view>
+	</navigator>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+	</view>
+	<view class="more">
+		<navigator url="/pages/sort/index">
+			查看更多<view class="next"></view>
+		</navigator>
+	</view>
+</view>
+<view class="modular">
+	<view class="h1">
+		<view class="span">
+			热销好书
+		</view>
+	</view>
+	<view class="content">
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+	</view>
+	<view class="more">
+		<navigator url="/pages/sort/index">
+			查看更多<view class="next"></view>
+		</navigator>
+	</view>
+</view>
+<view class="modular">
+	<view class="h1">
+		<view class="span">
+			热门导购
+		</view>
+	</view>
+	<view class="content">
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+		<view>
+			<image src="../../images/demo1.png"></image>
+			<view>图是星空</view>
+		</view>
+	</view>
+	<view class="more">
+		<navigator url="/pages/sort/index">
+			查看更多<view class="next"></view>
+		</navigator>
+	</view>
+</view>

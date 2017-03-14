@@ -1,0 +1,10 @@
+page{background-color: #f3f3f3;}
+.lesson{display: flex;font-size: 34rpx;line-height: 96rpx;background-color: #fafafa;}
+.lesson view{flex: 1;text-align: center;}
+.lesson view.on{background-color: #eaeaea}
+.content{background-color: #fff;padding: 20rpx 0;border-bottom: 2rpx solid #f3f3f3;overflow: hidden; }
+.content .item{width: 33.3333%;float: left;text-align: center; }
+.content .item view{text-align: center;font-size: 32rpx;}
+.content .item image{width: 150rpx;height: 190rpx;}
+
+

@@ -1,0 +1,82 @@
+<view class="status">
+  <view class="on">未完成</view>
+  <view>待评价</view>
+</view>
+<view class="listcon">
+  <view class="item">
+    <image src="../../../images/demo1.png">   
+    </image>
+    <view class="content">
+      <view class="name">
+        标题书名
+      </view>
+      <view >状态：<view class="color02">待发货(面对面订单)</view></view>
+      <view>2017/01/26</view>
+    </view>
+  </view>
+  <view class="listbottom">
+  共4件商品 总金额：￥505
+    <view class="r">
+    <button class="btn1">联系卖家</button>
+    <button class="btn2">确认收货</button>
+    </view>
+  </view>
+</view>
+<view class="listcon">
+  <view class="item">
+    <image src="../../../images/demo1.png">   
+    </image>
+    <view class="content">
+      <view class="name">
+        标题书名
+      </view>
+      <view>状态：<view class="color01">未支付</view></view>
+      <view>2017/01/26</view>
+    </view>
+  </view>
+  <view class="listbottom">
+  共4件商品 总金额：￥505
+    <view class="r">   
+    <button class="btn3">去支付</button>
+    </view>
+  </view>
+</view>
+<view class="listcon">
+  <view class="item">
+    <image src="../../../images/demo1.png">   
+    </image>
+    <view class="content">
+      <view class="name">
+        标题书名
+      </view>
+      <view>状态：<view class="color02">待发货</view></view>
+      <view>2017/01/26</view>
+    </view>
+  </view>
+  <view class="listbottom">
+  共4件商品 总金额：￥505
+    <view class="r">   
+    <button class="btn2">发货</button>
+    </view>
+  </view>
+</view>
+<view class="listcon">
+  <view class="item">
+    <image src="../../../images/demo1.png">   
+    </image>
+    <view class="content">
+      <view class="name">
+        标题书名
+      </view>
+      <view >状态：<view class="color02">已发货(圆通1111111)</view></view>
+      <view>2017/01/26</view>
+    </view>
+  </view>
+  <view class="listbottom">
+  共4件商品 总金额：￥505
+    <view class="r">
+    <button class="btn1">联系卖家</button>
+    <button class="btn2">确认收货</button>
+    </view>
+  </view>
+</view>

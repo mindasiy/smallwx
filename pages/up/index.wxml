@@ -1,0 +1,71 @@
+<view class="h1">
+	选择分类
+</view>
+<view class="waper">
+	<view class="section can_next">
+	  <view class="section__title">请选择</view>
+	  <picker mode = selector bindchange="bindPickerChange" value="{{index}}" range="{{arrayLesson}}">
+	    <view class="picker">
+	      {{arrayLesson[index]}}
+	    </view>
+	  </picker>
+	</view>
+	<view class="section on can_next">
+	  <view class="section__title">请选择</view>
+	  <picker mode = selector bindchange="bindPickerChange" value="{{index}}" range="{{arrayCat}}">
+	    <view class="picker">
+	      {{arrayCat[index]}}
+	    </view>
+	  </picker>
+	</view>
+</view>
+<view class="h1">
+	更多资料
+</view>
+<view class="waper">
+	<view class="section">
+	  	<view class="section__title">书名</view>
+		<input placeholder-style="color:＃a9a9a9" placeholder="请设置书名" />
+	</view>
+	<view class="section">
+	  	<view class="section__title">作者</view>
+		<input placeholder-style="color:＃a9a9a9" placeholder="请设置作者" />
+	</view>
+	<view class="section on">
+	  	<view class="section__title">出版社</view>
+		<input placeholder-style="color:＃a9a9a9" placeholder="请设置出版社" />
+	</view>
+	<view class="section on">
+	  	<view class="section__title">ISBN</view>
+		<input placeholder-style="color:＃a9a9a9" placeholder="请设置书名" />
+	</view>
+	<view class="section on">
+	  	<view class="section__title">价格</view>
+		<input placeholder-style="color:＃a9a9a9" placeholder="请设置价格" />
+	</view>
+	<view class="section on unline">
+	  	<view class="section__title">库存</view>
+		<input placeholder-style="color:＃a9a9a9" placeholder="请设置库存" />
+	</view>
+</view>
+<view class="h1">
+	介绍图片（拍照或去相册选择图片）
+</view>
+<view class="waper">
+	<view class="section_img">
+		<view class="section__title">
+			<image src="../../images/icon_add_b.png" class="add"></image>	
+		</view>
+	</view>
+</view>
+<view class="h1">
+	简介
+</view>
+<view class="waper section_img">
+	<textarea  placeholder-style="color:＃a9a9a9"  placeholder="预设内容" focus="{{focus}}" class="addtext" />
+</view>
+<button type="primary" class="btn">确认</button>
+
+
+
+

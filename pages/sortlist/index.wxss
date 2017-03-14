@@ -1,0 +1,3 @@
+/**index.wxss**/
+.modular{margin-top: 0;padding:0 }
+.modular .content{ padding:20rpx}

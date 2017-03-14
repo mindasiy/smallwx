@@ -1,0 +1,37 @@
+<view class="item">
+	<image src="../../../images/demo1.png">		
+	</image>
+	<view class="content">
+		<view class="name">
+			标题书名
+		</view>
+		<view>作者：十里桃花</view>
+		<view>简介：有各种物质组成的巨型球状天体</view>
+		<view class="money">
+			￥100<view class="right">X1</view>
+		</view>
+	</view>
+</view> 
+<view class="commentinfo">
+    <view class="title">
+    评论 
+        <view class="r"><image src="../../../images/icon_up1.png"></image></view>
+    </view>
+    <view class="commentcon">
+	  <textarea placeholder-style="color:#333;" class="taheight" placeholder="请输入评论内容"   maxlength="500"  >
+	  </textarea>
+	  <view class="fontlen">300<view class="color01">/500</view></view>
+    </view>
+</view>
+
+<view class="waper">
+	<view class="h1">
+		上传照片
+	</view>
+	<view class="section_img">
+		<view class="section__title">
+			<image src="../../images/icon_add_b.png" class="add"></image>	
+		</view>
+	</view>
+</view>
+<button class="btm">提交</button>

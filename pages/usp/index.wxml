@@ -1,0 +1,15 @@
+<view class="list">
+	<view class="item line">
+		<view class="left">
+			快递公司
+		</view>
+		<input placeholder-style="color:＃999" placeholder="姓名"  class="right"/>
+	</view>
+	<view class="item">
+		<view class="left">
+			快递单号
+		</view>
+		<input placeholder-style="color:＃999" placeholder="手机或固话" class="right" />
+	</view>
+</view>
+<button class="btm">确认</button>

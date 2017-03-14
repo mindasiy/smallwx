@@ -1,0 +1,20 @@
+<navigator url="../error/index">测室</navigator>
+<view class="icon">
+	<icon type="success" size="75"></icon>
+	<view class="h1">
+		付款成功
+	</view>
+	<view class="p">你可以去查看订单详细信息</view>
+</view>
+<view class="content">
+	<view class="item">
+		订单编号<view class="number">123456</view>
+	</view>
+	<view class="item">
+		订单编号<view class="number red">¥2000</view>
+	</view>
+</view>
+<view class="btm">
+	<navigator>查看订单</navigator>
+	<navigator class="color">联系卖家</navigator>
+</view>

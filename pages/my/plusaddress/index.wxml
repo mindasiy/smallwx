@@ -1,0 +1,38 @@
+<view class="content">
+	<view class="item">
+		<view class="left">
+			收货人
+		</view>
+		<input placeholder-style="color:#999" placeholder="姓名"  class="right"/>
+	</view>
+	<view class="item">
+		<view class="left">
+			联系电话
+		</view>
+		<input placeholder-style="color:#999" placeholder="手机和固话"  class="right"/>
+	</view>
+	<view class="item next">
+		<view class="left">
+			选择地区
+		</view>
+		<picker mode = selector bindchange="bindPickerChange" value="{{index}}" range="{{arr}}" class="right wid">
+		    <view class="picker">
+		      {{arr[index]}}
+		    </view>
+	  	</picker>
+	</view>
+	<view class="item">
+		<view class="left">
+			详细地址
+		</view>
+		<textarea placeholder-style="color:#999" placeholder="街道门派信息"  class="right long">
+		</textarea>
+	</view>
+	<view class="item">
+		<view class="left">
+			邮政编码
+		</view>
+		<input placeholder-style="color:#999" placeholder="20020100"  class="right"/>
+	</view>
+</view>
+<button type="primary" class="btn">确认</button>

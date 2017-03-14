@@ -1,0 +1,44 @@
+.shopcontainer{padding:20rpx; background:#fff}
+.swiper_box {
+    width: 100%;
+    height: 390rpx;
+}
+.swiper_box .slide-image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+.shopping_container {
+    padding:30rpx  0;
+}
+.shopping_container .title{ height: 58rpx ; margin-bottom:30rpx; color:#ff5500}
+.shopping_container .title .btn-area {
+     float:right;     
+}
+.shopping_container .title .btn-area button{ float:left; line-height: 56rpx; border-radius: 10rpx;font-size: 30rpx}
+.shopping_container .title .btn-area button.btn1{ background: #f8f8f8; width: 140rpx;margin-right: 14rpx;color: #333; border: 1px solid #dfdfdf}
+.shopping_container .title .btn-area button.btn2{ background: #ff5500; width: 200rpx;color: #fff; border: 1px solid #ff5500 }
+.color01{ color:#888}
+.sellinfo,.commentinfo{ margin:30rpx 0; padding:20rpx 0; background:#fff }
+.sellinfo .title,.commentinfo .title{
+    border-bottom: 2rpx solid #d0d0d0;  margin-left:30rpx; padding:10rpx 0;font-size:30rpx; height:60rpx;line-height:60rpx
+}
+.sellinfo .title .r,.commentinfo .title .r{ float:right; padding-right:30rpx; color:#ff5500}
+.sellinfo .title .r  image,.commentinfo .title .r image{ width:26rpx; height:26rpx}
+.sellcon{ padding: 20rpx 30rpx;display: flex;height: 178rpx;box-sizing: border-box;}
+.sellcon image{height: 138rpx;width: 138rpx;margin-right: 30rpx;border-radius: 10rpx;border: 2rpx solid #d0d0d0}
+.sellcon .namebox{display: inline-flex;flex-direction: column;justify-content: space-around; width:420rpx;}
+.sellcon .namebox .name{font-size: 38rpx;color: #333;}
+.sellcon .namebox .more{font-size: 32rpx;color: #999;}
+.sellr{
+display: inline-flex;
+flex-direction:column;
+justify-content: center;
+align-items: flex-end;margin-left:30rpx
+}
+.sellr button{  line-height: 56rpx; border-radius: 10rpx;font-size: 30rpx;background: #f8f8f8; width: 180rpx; color: #333; border: 1px solid #dfdfdf}
+.commentcon .title{ color:#000;font-size:32rpx; border-bottom:none;  margin-left:30rpx; padding:10rpx 0;font-size:30rpx; height:60rpx;line-height:60rpx}
+.commentcon .con{margin:0 0 0 30rpx; padding:0rpx 20rpx 20rpx 0;color:#888;font-size:32rpx; border-bottom: 2rpx solid #d0d0d0; }
+.commentcon .con image{ max-width:100%;overflow:hidden; margin:20rpx 0}
+ 

@@ -1,0 +1,31 @@
+page{background-color: #efeff4;}
+.state{background-color: #fff;padding:0 20rpx;font-size: 32rpx;color: #000;display: flex;justify-content: space-between;}
+.state .left{line-height: 136rpx;}
+.state .right{display: inline-flex;flex-direction: column;justify-content: center;line-height: 40rpx;text-align: right;padding: 20rpx 0;}
+.unstate{background-color: #fff;padding:0 20rpx;font-size: 32rpx;color: #000;display: flex;justify-content: space-between;}
+.unstate .left{line-height: 40rpx;display: inline-flex;flex-direction: column;justify-content: center;}
+.unstate .right{display: inline-flex;flex-direction: column;justify-content: center;line-height: 40rpx;text-align: right;padding: 20rpx 0;}
+.unpay{ color: #ff5500}
+.address{padding: 20rpx 0 30rpx 30rpx;margin-top: 20rpx;background-color: #fff;}
+.address .h1{border-bottom: 2rpx solid #eeeeee;font-size: 36rpx;line-height: 78rpx;color: #999;}
+.address .name{padding-top: 20rpx;font-size: 38rpx;}
+.address .name view{display: inline;margin-left: 20rpx;}
+.address .home{color: #999;font-size: 32rpx;line-height: 50rpx;padding-right: 50rpx;}
+.item{margin-top: 20rpx;background-color: #fff;padding: 20rpx;border-bottom: 2rpx solid #eeeeee;display: flex; }
+.item image{height: 190rpx;width: 150rpx;}
+.content{display: inline-flex;color: #999;flex-direction: column;justify-content: space-around;line-height: 44rpx;font-size: 32rpx; margin-left: 20rpx }
+.content .name{line-height: 58rpx;color: #000;}
+.content .money{color: #ff5500;}
+.content .money .right{float: right;font-size: 28rpx;color: #000;}
+.list{display: flex;line-height: 52rpx;flex-direction: column;padding: 20rpx;font-size: 32rpx;background-color: #fff;}
+.list .in{display: inline;margin-left: 10rpx;}
+.list .btm{color: #999}
+.next{height: 88rpx;width: 100%;color: #fff;line-height: 88rpx;text-align: center; position: fixed; bottom: 0; left: 0 }
+.how{background-color: #fff;padding: 20rpx;line-height: 54rpx;font-size: 36rpx; margin-bottom: 110rpx; margin-top: 20rpx}
+.how .right{ float: right;color: #ffa477; font-size: 28rpx}
+.how .sd{border-bottom: 2rpx solid #eeeeee;}
+.line{padding: 15rpx 0;}
+.line_btm{padding-top: 15rpx;}
+.line_btm .right{font-size: 32rpx; font-weight: bold}
+.green{background-color: #09bb07;}
+.orange{background-color: #ff5500;}

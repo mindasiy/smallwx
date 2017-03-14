@@ -1,0 +1,24 @@
+<navigator url=""></navigator>
+<view class="icon">
+	<icon type="warn" size="75"></icon>
+	<view class="h1">
+		付款失败
+	</view>
+	<view class="p">支付遇到问题，请再次支付。</view>
+</view>
+<view class="content">
+	<view class="item">
+		订单编号<view class="number">123456</view>
+	</view>
+	<view class="item">
+		订单编号<view class="number red">¥2000</view>
+	</view>
+</view>
+<navigator class="error">
+	<image></image>
+	<view>微信支付</view>
+</navigator>
+<view class="btm">
+	<navigator>查看订单</navigator>
+	<navigator class="color">重新支付</navigator>
+</view>

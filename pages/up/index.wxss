@@ -1,0 +1,15 @@
+page{background-color: #f0eff4;}
+.waper{padding-left: 30rpx;background-color: #fff;}
+.h1{line-height: 88rpx;font-size: 32rpx;text-indent: 30rpx;color: #afafaf}
+.section{display: flex;border-bottom: 2rpx solid #d0d0d0;line-height: 80rpx;font-size: 36rpx; position: relative}
+.waper .unline{border-bottom: 0}
+.waper .on:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);margin-top: 6rpx;position: absolute;top: 50%;right: 30rpx;}
+.can_next{position: relative;}
+.can_next:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);margin-top: 6rpx;position: absolute;top: 50%;right: 30rpx;}
+.section input{line-height: 80rpx;height: 80rpx;display: block; margin-top: 20rpx}
+.section__title{width: 180rpx;height: 120rpx; line-height: 120rpx}
+.section_img{padding: 20rpx;}
+.section_img .add{height: 120rpx;width: 120rpx;}
+.section_img textarea{height: 100rpx;}
+.btn{width: 700rpx;margin: 60rpx auto;height: 82rpx;line-height: 82rpx;}
+.picker{ margin-top: 20rpx}

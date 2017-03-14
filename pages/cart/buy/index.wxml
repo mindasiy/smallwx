@@ -1,0 +1,62 @@
+<view class="personal">
+	<view class="name">
+		张某某<view class="phone">13333333333</view>
+	</view>
+	<view class="address">
+		南京市玄武区长江后街东大科技园169号
+	</view>
+</view>
+<view class="mode">
+	<view class="h1">配送方式</view>
+	<view class="btngroup"><button class="class1">面对面交货</button><button class="class2" bindtap="open">快递配送</button> </view>
+	<view class="modetext">*面对面交货，支付方式仅支持当面支付，交货时间自行协商。</view>
+</view>
+
+<view class="mode">
+	<view class="h1">支付方式</view>
+	<view class="btngroup"><button class="class1">当面支付</button><button class="class2">线上支付</button> </view>
+	<view class="modetext">*线上支付，请在订单生成12小时内完成支付，否则订单自动取消。</view>
+</view>
+<view class="wxpay"><image src="../../../images/wx.png"></image> 微信支付</view>
+<view class="mode">
+	<view class="h1">卖家信息</view>
+	<view class="modemsg">
+	<image src="../../../images/demo2.png"></image>
+	<view class="namebox">
+		<view class="name">名字名字</view>
+		<view class="more">15655555555555</view>
+	</view>
+	</view>
+</view>
+<view class="item">
+	<image src="../../../images/demo1.png">		
+	</image>
+	<view class="content">
+		<view class="name">
+			标题书名
+		</view>
+		<view>作者：十里桃花</view>
+		<view>简介：有各种物质组成的巨型球状天体</view>
+		<view class="money">
+			￥100<view class="right">X1</view>
+		</view>
+	</view>
+</view>
+<view class="how">
+	<view class="line">
+		<view>商品总额：<view class="right">￥123</view></view>
+		
+		<view>运费：<view class="right">￥6</view></view>
+		
+	</view>	 
+</view>
+    <view class="go_buy" >
+       <view class="all">
+            合计<view>¥100</view>
+          </view>
+      <view class="go">         
+          <navigator class="next"  url="../../../pages/order/index">
+            生成订单
+          </navigator>
+      </view>
+    </view>

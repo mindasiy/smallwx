@@ -1,0 +1,18 @@
+page{background-color: #f2f2f2;}
+.status{display: flex;font-size: 34rpx;line-height: 96rpx;background-color: #fafafa;}
+.status view{flex: 1;text-align: center;}
+.status view.on{background-color: #eaeaea}
+.listcon{margin-top: 20rpx;background-color: #fff;padding: 20rpx;height: 290rpx;}
+.item{border-bottom: 2rpx solid #eeeeee;display: flex;position:relative; padding-bottom:20rpx  }
+.item image{height: 190rpx;width: 150rpx;}
+.content{display: inline-flex;color: #999;flex-direction: column;justify-content: space-around;line-height: 44rpx;font-size: 32rpx; margin-left: 20rpx }
+.content .name{line-height: 58rpx;color: #000;}
+.item:after{content: "";height: 16rpx;display: inline-block;width: 16rpx;border-right: 6rpx solid #c9c8cd;border-bottom: 6rpx solid #c9c8cd;transform: translateY(-50%) rotate(-45deg);position: absolute;top: 50%;right: 20rpx;}
+.color01{display:inline-block;color:#ff5500}
+.color02{display:inline-block;color:#000}
+.listbottom{ height:60rpx; width:100%; font-size: 28rpx;line-height: 60rpx; margin: 20rpx 0 0 0 }
+.listbottom .r{ float:right;}
+.listbottom .r button{ height:58rpx; line-height:58rpx; display: inline-block; margin-left: 10rpx;border-radius: 10rpx;font-size: 28rpx  }
+.listbottom .r button.btn1{background:#f8f8f8; border: 2rpx solid #ccc }
+.listbottom .r button.btn2{background:#1aad19; border: 2rpx solid #1aad19;color: #fff }
+.listbottom .r button.btn3{background:#ff5500; border: 2rpx solid #ff5500;color: #fff }

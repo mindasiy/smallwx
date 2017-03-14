@@ -1,0 +1,11 @@
+page{background: #fff;}
+.head{display: flex;justify-content: space-between;text-align: center;line-height: 100rpx;font-size: 32rpx;background-color: #fff;}
+.head view{flex: 1;}
+.head navigator{display: inline-block;line-height: 100rpx;}
+.head navigator.on{border-bottom: 1px solid #363636;}
+.list .item{display: flex;border-bottom: 2rpx solid #d0d0d0;padding: 30rpx 20rpx;}
+.list image{height: 146rpx;width: 190rpx;margin-right: 30rpx;}
+.list .content{display: inline-flex;flex-direction: column;justify-content: space-around;font-size: 32rpx;color: #999;}
+.list .content .big{line-height: 42rpx;height: 42rpx;overflow: hidden;}
+.list .content .name{font-size: 40rpx;color: #333;}
+.list .content .money{font-size: 36rpx;color: #fd5600;}

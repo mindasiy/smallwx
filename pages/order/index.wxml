@@ -1,0 +1,61 @@
+<view class="state">
+	<view class="left">
+		订单状态
+	</view>
+	<view class="right">
+		<view>已发货</view>
+		<view>申通快递：545456456646</view>
+	</view>
+</view>
+<!--未支付状态start-->
+<view class="unstate">
+	<view class="left">
+		订单状态
+	</view>
+	<view class="right">
+		<view class="unpay">未支付</view>		 
+	</view>
+</view>
+<!--未支付状态end-->
+<view class="address">
+	<view class="h1">收货地址</view>
+	<view class="name">
+		张某某<view>13399999999</view>
+	</view>
+	<view class="home">
+		上海市浦东新区张江高科技园盛夏路666号张建生银大厦E栋2楼（200135）
+	</view>
+</view>
+<view class="item">
+	<image src="../../images/demo1.png">		
+	</image>
+	<view class="content">
+		<view class="name">
+			标题书名
+		</view>
+		<view>作者：十里桃花</view>
+		<view>简介：有各种物质组成的巨型球状天体</view>
+		<view class="money">
+			￥100<view class="right">X1</view>
+		</view>
+	</view>
+</view>
+<view class="list">
+	<view>订单号：<view class="in">12345678910</view></view>
+	<view>卖家信息：<view class="in">张天祥</view><view class="in">13337777777</view></view>
+	<view>配送方式：<view class="in">快递配送</view></view>
+	<view>支付方式：线上支付</view>
+	<view class="btm">下单时间：2017/2/27<view class="in">15:17</view></view>
+</view>
+<view class="how">
+	<view class="sd line">
+		<view>商品总额：<view class="right">￥123</view></view>
+		
+		<view>运费：<view class="right">￥6</view></view>
+		
+	</view>
+	<view class="line_btm">订单总额：<view class="right">￥129</view></view>
+</view>
+
+<view class="next green">确认收货</view>
+<!--如果状态是去支付这段代码注释放开<view class="next orange">去支付</view>-->
